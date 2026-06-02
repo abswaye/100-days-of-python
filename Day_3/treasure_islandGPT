@@ -1,0 +1,26 @@
+choice1 = input("Do you want to go left or right?")
+if choice1 == "left":
+
+    choice2 = input("swim or wait? ").lower()
+
+    if choice2 == "wait":
+
+        choice3 = input("Which door? red, blue or yellow? ").lower()
+
+        if choice3 == "red":
+            print("Burned by fire. Game over!")
+
+        elif choice3 == "blue":
+            print("Eaten by beasts. Game over!")
+
+        elif choice3 == "yellow":
+            print("You won!")
+
+        else:
+            print("Game Over!")
+
+    else:
+        print("Attacked by trout. Game over!")
+
+else:
+    print("You fell into a hole. Game over!")

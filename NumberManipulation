@@ -1,0 +1,22 @@
+# # # # score = 0 
+# # # # # User scores a point
+# # # # score += 1
+# # # # print(score)
+# # # # # f-strings
+# # # # # In python, we can use f-strings to insert a variable or an expression into a string.
+# # # # print("You're score is " + str (score))
+# # # score = 0
+# # # height = 1.8
+# # # is_winning_= True
+# # # print(f"You're score is = {score}, You're height is {height}.You are winning is {is_winning_}")
+
+# # score += 10
+# # weight = float(input("weight: "))
+# # height = float(input("height"))
+# # is_winning = bool()
+# # bmi = 
+name = input("what is your name?")
+print("Hello, " + name)
+   
+
+
