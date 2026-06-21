@@ -1,4 +1,5 @@
 import random 
+import hangman_words
 word_list = ["dadir", "adam","yaseen","zaydan","fahima"]
 chosen_word = random.choice(word_list)
 print(chosen_word)
